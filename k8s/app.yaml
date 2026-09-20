@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: observability-api
-          image: ashwak95/observability-sre:abc985c7cdd4c48ed0f7010d7e98e11fae7eaf16
+          image: ashwak95/observability-sre:f4727a58a790269070c595c62124df4e797453be
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
